@@ -11,7 +11,7 @@
 
   <div class="big-card__photo">
     <img
-      src="https://devporai.com.br/wp-content/uploads/2020/06/Copy-of-Copy-of-Travel-Photography.png"
+      src="{{ photocover }}"
       alt=""
       height="200px"
       srcset=""
@@ -20,15 +20,13 @@
 
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardtitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        {{ carddescription }}
       </a>
     </p>
   </div>

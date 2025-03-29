@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
 
   <header>
@@ -13,19 +15,36 @@
 
   <app-menu-title></app-menu-title>
 
-<div class="container__articles">
-  <div class="articles__main">
-    <app-big-card></app-big-card>
+  <div class="container__articles">
+    <div class="articles__main">
+      <app-big-card
+        photocover="https://mwi.westpoint.edu/wp-content/uploads/2016/04/3264149-42-iron-man-iron-man-hd-8-free-spot-free-download-1.jpg"
+        cardtitle="NOVO HOMEM DE FERRO EM 3D"
+        carddescription="Marvel Anuncia Novo Homem de Ferro."
+        >
+      </app-big-card>
+    </div>
+    <div class="articles__others">
+      <app-small-card
+        cardtitle="Nova Série Anunciada no Disney +"
+        photocover="https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus.jpg"
+      >
+      </app-small-card>
+
+      <app-small-card
+        cardtitle="Novo Filme do Pantera Negra Será Lançado em Breve"
+        photocover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E4475104C984F5D9F6E97DC692DB0FAD25980507FE06A7B4550371096397E4A5/scale?width=1200&aspectRatio=1.78&format=webp"
+      >
+      </app-small-card>
+
+      <app-small-card
+        cardtitle="Novo Filme dos x-men Está em Produção, Afirma Diretor "
+        photocover="https://tm.ibxk.com.br/2024/05/22/22133005565177.jpg"
+      >
+      </app-small-card>
+    </div>
   </div>
-  <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-  </div>
-</div>
 
 </body>
+
 </html>
-
-
-
